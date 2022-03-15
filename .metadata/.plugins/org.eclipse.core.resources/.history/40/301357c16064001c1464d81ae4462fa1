@@ -1,0 +1,21 @@
+package multi_client;
+
+import java.net.Socket;
+
+public class Sender extends Thread {
+
+	private Socket socket;
+	
+	public Sender(Socket socket) {
+		this.socket = socket;
+	}
+
+	@Override
+	public void run() {
+		
+		
+		
+		
+	}
+	
+}

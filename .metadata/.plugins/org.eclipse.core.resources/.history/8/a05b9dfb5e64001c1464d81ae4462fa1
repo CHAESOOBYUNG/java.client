@@ -1,0 +1,28 @@
+package multi_client;
+
+import java.net.Socket;
+
+public class MainClient {
+	
+    //사용자가 쓸 아이디
+	public static String id;
+	
+	public static void main(String[] args) {
+		
+		try {
+			//client측(사용자측)
+			Socket socket = new Socket("172.30.1.55", 8383); //연결할 아이피주소, 포트번호
+			
+			
+			
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+		
+		
+		
+	}
+}

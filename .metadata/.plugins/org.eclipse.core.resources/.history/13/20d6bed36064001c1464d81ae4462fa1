@@ -1,0 +1,25 @@
+package multi_client;
+
+import java.net.Socket;
+
+public class Sender extends Thread {
+
+	private Socket socket;
+	
+	public Sender(Socket socket) {
+		this.socket = socket;
+	}
+
+	@Override
+	public void run() {
+		
+		//1. 키보드로부터 입력받는다.
+		
+		//2. 아이디를 입력받는다.
+		
+		//3. 메세지를 서버축으로 전송한다.
+		
+		
+	}
+	
+}

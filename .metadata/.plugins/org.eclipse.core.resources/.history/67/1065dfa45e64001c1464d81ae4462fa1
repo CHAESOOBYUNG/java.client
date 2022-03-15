@@ -1,0 +1,11 @@
+package multi_client;
+
+public class MainClient {
+	
+    //사용자가 쓸 아이디
+	public static String id;
+	
+	public static void main(String[] args) {
+		
+	}
+}
